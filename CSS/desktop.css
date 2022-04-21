@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'goldman_sansbold';
+    src: url('../Fonts/goldmansans_bd-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldman_sansbold_italic';
+    src: url('../Fonts/goldmansans_bdit-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_bdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldman_sansblack';
+    src: url('../Fonts/goldmansans_blk-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_blk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldman_sansitalic';
+    src: url('../Fonts/goldmansans_it-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldman_sanslight';
+    src: url('../Fonts/goldmansans_lt-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldman_sansmedium';
+    src: url('../Fonts/goldmansans_md-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_md-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldman_sansmedium_italic';
+    src: url('../Fonts/goldmansans_mdit-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_mdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldman_sansregular';
+    src: url('../Fonts/goldmansans_rg-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldman_sansthin';
+    src: url('../Fonts/goldmansans_th-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_th-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldman_sans_condensedbold';
+    src: url('../Fonts/goldmansanscd_bd-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansanscd_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldman_sans_condensedregular';
+    src: url('../Fonts/goldmansanscd_rg-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansanscd_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{
+  font-family: "goldman_sansregular";
+  background-color: #1a3843;
+  color: #cabb8f;
+}
+
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+  background:rgba(255,255,255,0.6);
+  position:fixed;
+  left:0;
+  top:0;
+  transition:background 0.5s ease;
+  width: 100%;
+}
+
+.home{
+  font-size: 22px;
+  width: 100%;
+  padding: 25px;
+}
+
+.runes{
+  font-size: 22px;
+  width: 100%;
+}
+
+.top{
+  font-size: 22px;
+  width: 100%;
+}
+
+.support{
+  font-size: 22px;
+  width: 25%;
+}
+
+#table{
+  display: flex;
+  flex-direction: row;
+  margin : 0 auto;
+}
+
+.inside{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.inside img{
+  max-width: 600px;
+  max-height: 420px;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.short{
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#precision{
+  display: flex;
+  flex-direction: column;
+  column-gap: 100px;
+}
+
+.precision_runes{
+  justify-content: space-around;
+  max-width: 100%;
+  max-height: 100%;
+  font-size: 20px;
+}
+
+#dom{
+  display: flex;
+  flex-direction: column;
+  column-gap: 100px;
+}
+
+.dom_runes{
+  justify-content: space-around;
+  max-width: 100%;
+  max-height: 100%;
+  font-size: 20px;
+}
+
+#sorcery{
+  display: flex;
+  flex-direction: column;
+  column-gap: 100px;
+}
+
+.sorcery_runes{
+  justify-content: space-around;
+  max-width: 100%;
+  max-height: 100%;
+  font-size: 20px;
+}
+
+#resolve{
+  display: flex;
+  flex-direction: column;
+  column-gap: 100px;
+}
+
+.resolve_runes{
+  justify-content: space-around;
+  max-width: 100%;
+  max-height: 100%;
+  font-size: 20px;
+}
+
+#inspiration{
+  display: flex;
+  flex-direction: column;
+  column-gap: 100px;
+}
+
+.inspiration_runes{
+  justify-content: space-around;
+  max-width: 100%;
+  max-height: 100%;
+  font-size: 20px;
+}
+
+#top_table{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 36px;
+}
+
+nav ul li a{
+  color: #cabb8f;
+}
+
+nav ul li a:hover{
+  color: #ccc7b9;
+}
